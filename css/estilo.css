@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.cabecalho{
+    background-color: green;
+}
+.logotopo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.cabecalho{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 80px;
+}
+.menus li{
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    transition: transform 0.3s;
+}
+.menus li:hover{
+    transform: scale(1.2);
+}
+.btnassinante button{
+    background-color: #FFFFFF;
+    color: green;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border: solid 1px green;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.fundobanner img{
+    width: 100%;
+    height: 450px;
+}
+.fundoservicos{
+    background-color: #32CD32;
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.servico{
+    display: flex;
+    width: 310px;
+    height: 110px;
+    gap: 10px;
+}
+.fundoplanos{
+    background-color: #e6e6e6;
+    width: 100%;
+}
+.fundoplanos{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.textosplanos{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wifitexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.wifitexto img{
+    width: 50px;
+    height: 50px;
+}
+.wifitexto h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #32CD32;
+    font-style: italic;
+}
+.wifitexto h4 strong{
+    color: green;
+}
+.wifitexto h2{
+    font-size: 58px;
+    font-weight: bold;
+    margin: 0px;
+}
+.textosplanos h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px
+}
+.textosplanos p{
+    font-family: "Baskerville Old Face";
+    color: #787575
+}
+.planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.cardplano{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.textomega{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.textomega h3{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 5px;
+}
+.textoplano{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
+.conteudocard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.precoplano{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 8px
+}
+.preco{
+    font-size: 48px;
+    font-weight: bold;
+}
+.mensal{
+    color: #605a5a;
+}
+.itensplano{
+    margin-bottom: 10px;
+}
+.item{
+    font-family: "Dubai Light";
+    list-style-type: none;
+}
+.btnassineagora{
+    background-color: #32CD32;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 185px;
+    height: 50px;
+    font-weight: bold;
+    border: solid 1px green;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /*a=porcentagem de transparência*/
+    cursor: pointer;
+}
+.fundocardcliente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cardcliente{
+    background-color: #dbf2db;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.textocliente{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cardcliente p{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #128f12;
+}
+.fotocliente img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.rodape{
+    background-color: #014a01;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape p{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.logorodape img{
+    width: 200px;
+    height: 80px;
+}
+.redesocialrodape img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+.redesocialrodape img:hover{
+    transform: scale(1.2);
+}
+.cardplano{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+.cardplano:hover{
+    transform: scale(1.2);
+}
